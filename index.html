@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .box {
+           width: 33.33%;
+           height: 50%;
+           float: left;
+            box-sizing: border-box;
+            border-width: 50px;
+            border-color: black;
+            border: 1px black solid;
+         
+            
+        }
+        .box1 {
+           width: 33.33%;
+           float: left;
+            box-sizing: border-box;
+            border-width: 50px;
+            border-color: black;
+            border: 1px lightpink solid;
+         
+            
+        }
+
+        
+
+        .common {
+            text-align: center;
+
+        }
+
+        h2 {
+            color: whitesmoke;
+        }
+
+        body {
+            background-color: lightpink;
+            background-size: cover;
+            text-align: center;
+            color: gray;
+        }
+
+        h1 {
+            color: crimson;
+        }
+
+        #submit {
+            background-color: black;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b><u>STUDENT INQURY FORM</u></b></h1>
+<div class="box1">
+
+</div>
+    
+    <div class="box">
+
+        <form class="common">
+            <label>NAME:</label>
+            <input type="text" value="enter your name"><br><br>
+            <label>MOBILE NO:</label>
+            <input type="text" value="max 10 article"><br><br>
+            <label>EMAIL:</label>
+            <input type="text"><br><br>
+            <label>PASSWORD:</label>
+            <input type="password"><br><br>
+
+            <h2><u>GENDER</u></h2>
+            <input type="radio" name="gender">
+            <label>MALE</label>
+            <input type="radio" name="gender">
+            <label>FEMALE</label>
+            <input type="radio" name="gender">
+            <label>OTHER</label><br><br><br>
+
+            <label>BRITH DATE:</label>
+            <input type="date"><br><br>
+
+            <h2>your study completed</h2>
+            <input type="checkbox" name="10TH">
+            <label>10TH</label>
+            <input type="checkbox" name="11TH">
+            <label>11TH</label>
+            <input type="checkbox" name="12TH">
+            <label>12TH</label><br><br>
+
+            <label>CHOSSE YOUR PERSENTEG:</label>
+            <select name="PERSENTEG">
+                <option value="25% UP">25% UP</option>
+                <option value="50% UP">50% UP</option>
+                <option value="75% UP">75% UP</option>
+                <option value="95% UP">95% UP</option>
+            </select><BR><BR><BR><BR>
+
+
+            <button type="button" onclick="alert('ALL QUESTION FILL UP')">Click Me!</button><BR><BR><BR>
+            <input id="submit" type="submit" value="Submit">
+
+        </form>
+    </div>
+
+   
+</body>
+
+</html>
